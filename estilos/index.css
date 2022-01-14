@@ -63,13 +63,39 @@
 
 
 
-/* início da formatação da página inicial */
+/* início da formatação da section de apresentação (página inicial) */
     .section-apresentação {
         background-image: url("../imagens/pessoa-imagem-inicial.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         height: 100%;
-        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-/* fim da formatação da página inicial */
+
+    .texto-apresentação {
+        width: 40%;
+        margin-left: 55%;
+        margin-top: 6%;
+        margin-bottom: 20%;
+        color: white;
+    }
+
+    .cor-span {
+        color: purple;
+    }
+
+    .texto-apresentação h1 {
+        margin-bottom: 5%;
+    }
+/* fim da formatação da section de apresentação (página inicial) */
+
+
+
+/* início da formatação da section de carrossel de produtos (página inicial) */
+    .section-carrossel {
+        background-color: lightgreen;
+    }
+/* fim da formatação da section de carrossel de produtos (página inicial) */
