@@ -57,6 +57,28 @@
         color: rgb(53, 119, 206);
     }
 
+    .botao-hamburguer {
+        margin-right: 7%;
+        font-size: 2em;
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .botao-hamburguer {
+            display: block;
+            cursor: pointer;
+        }
+
+        .links {
+            display: block;
+            border: 1px solid purple;
+            margin-bottom: 1%;
+        }
+      }
     
 /* fim da formatação do header */
 
@@ -68,7 +90,6 @@
         background-image: url("../imagens/pessoa-imagem-inicial.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
         height: 100%;
         width: 100%;
         display: flex;
