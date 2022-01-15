@@ -56,30 +56,6 @@
     .navegação a:hover {
         color: rgb(53, 119, 206);
     }
-
-    .botao-hamburguer {
-        margin-right: 7%;
-        font-size: 2em;
-        display: none;
-    }
-
-    #toggle {
-        display: none;
-    }
-
-    @media screen and (max-width: 600px) {
-        .botao-hamburguer {
-            display: block;
-            cursor: pointer;
-        }
-
-        .links {
-            display: block;
-            border: 1px solid purple;
-            margin-bottom: 1%;
-        }
-      }
-    
 /* fim da formatação do header */
 
 
@@ -120,3 +96,161 @@
         background-color: lightgreen;
     }
 /* fim da formatação da section de carrossel de produtos (página inicial) */
+
+
+
+/* início da formatação das @Medias screen */
+    .botao-hamburguer {
+        margin-right: 7%;
+        font-size: 2em;
+        display: none;
+        color: white;
+    }
+
+    .botao-hamburguer:hover {
+        color: purple;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    /* início da formatação de tela com até 500px */
+        @media screen and (max-width: 500px) and (min-width: 320px) {
+            .cabeçalho {
+                display: block;
+            }
+                
+            .logo {
+                width: 100%;
+                text-align: center;
+            }
+
+            .botao-hamburguer {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+            .menu {
+                display: none;
+            }
+
+            #toggle:checked + .menu {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .links {
+                display: block;
+                border-top: 1px solid purple;
+                margin-bottom: 1%;
+                width: 100%;
+            }
+        }
+    /* fim da formatação de tela com até 500px */
+
+    /* início da formatação de tela com até 375px */
+        @media screen and (max-width: 375px) {
+            .cabeçalho {
+                display: flex;
+                flex-direction: column;
+                
+            }
+                
+            .logo {
+                width: 100%;
+                text-align: center;
+            }
+
+            .botao-hamburguer {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+            .menu {
+                display: none;
+            }
+
+            #toggle:checked + .menu {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .links {
+                display: block;
+                border-top: 1px solid purple;
+                margin-bottom: 1%;
+                width: 100%;
+            }
+        }
+    /* fim da formatação de tela com até 375px */
+
+    /* início da formatação de tela com até 425px */
+        @media screen and (max-width: 425px) {
+            .cabeçalho {
+                display: flex;
+                flex-direction: column;
+                
+            }
+                
+            .logo {
+                width: 100%;
+                text-align: center;
+            }
+
+            .botao-hamburguer {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+
+            .menu {
+                display: none;
+            }
+
+            #toggle:checked + .menu {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .links {
+                display: block;
+                border-top: 1px solid purple;
+                margin-bottom: 1%;
+                width: 100%;
+            }
+        }
+    /* fim da formatação de tela com até 425px */
+
+    /* início da formatação de tela com até 768px */
+        @media screen and (max-width: 768px) and (min-width: 426px) {
+            .cabeçalho {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .logo {
+                border: purple 1px solid;
+                width: 30%;
+                margin-left: 2%;
+            }   
+        }
+    /* fim da formatação de tela com até 768px */
+
+    /* início da formatação de tela com até 1024px */
+        @media screen and (max-width: 1024px) and (min-width: 769px) {
+            .cabeçalho {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .logo {
+                border: purple 1px solid;
+                width: 30%;
+                margin-left: 2%;
+            }   
+        }
+    /* fim da formatação de tela com até 1024px */
+/* fim da formatação das @Medias screen */
