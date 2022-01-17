@@ -109,11 +109,27 @@
         position: absolute;
         font-family: "Pamit";
         bottom: 15%;
-        right: 27%;
+        right: 20%;
     }
 
-    .posicionando-titulo {
-        
+    .posicionando-titulo1 {
+        color: lightgreen;
+        text-shadow: 1px 1px black;
+        font-weight: bolder;
+        margin-left: 2%;
+    }
+
+    .posicionando-texto1 {
+        font-size: x-large;
+        font-weight: bolder;
+        margin-left: 2%;
+        color: rgb(122, 168, 122);
+        text-shadow: 1px 1px black;
+    }
+
+    .botao-slide1 {
+        margin-left: 45%;
+        width: 30%;
     }
 /* fim da formatação da section de carrossel de produtos (página inicial) */
 
