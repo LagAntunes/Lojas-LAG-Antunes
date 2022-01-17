@@ -105,6 +105,10 @@
         height: 100%;
     }
 
+    .div-carrossel img {
+        border-radius: 15px;
+    }
+
     .posicionando-texto {
         position: absolute;
         font-family: "Pamit";
@@ -128,8 +132,12 @@
     }
 
     .botao-slide1 {
-        margin-left: 45%;
+        margin-left: 47%;
         width: 30%;
+    }
+
+    .botao-slide1:hover {
+        font-size: x-large;
     }
 /* fim da formatação da section de carrossel de produtos (página inicial) */
 
