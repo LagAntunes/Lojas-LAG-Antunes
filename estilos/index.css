@@ -93,7 +93,16 @@
 
 /* início da formatação da section de carrossel de produtos (página inicial) */
     .section-carrossel {
-        background-color: lightgreen;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-carrossel {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 70%;
+        height: 80%;
     }
 /* fim da formatação da section de carrossel de produtos (página inicial) */
 
