@@ -101,8 +101,19 @@
     .div-carrossel {
         margin-top: 5%;
         margin-bottom: 5%;
-        width: 70%;
-        height: 80%;
+        width: 65%;
+        height: 100%;
+    }
+
+    .posicionando-texto {
+        position: absolute;
+        font-family: "Pamit";
+        bottom: 15%;
+        right: 27%;
+    }
+
+    .posicionando-titulo {
+        
     }
 /* fim da formatação da section de carrossel de produtos (página inicial) */
 
