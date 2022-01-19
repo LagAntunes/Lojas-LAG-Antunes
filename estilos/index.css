@@ -146,6 +146,21 @@
         text-shadow: 1px 1px black;
     }
 
+    .posicionando-titulo3 {
+        color: orange;
+        text-shadow: 1px 1px black;
+        font-weight: bolder;
+        margin-left: 2%;
+    }
+
+    .posicionando-texto3 {
+        font-size: x-large;
+        font-weight: bolder;
+        margin-left: 2%;
+        color: rgb(219, 112, 41);
+        text-shadow: 1px 1px black;
+    }
+
     .botao-slide {
         margin-left: 47%;
         width: 30%;
