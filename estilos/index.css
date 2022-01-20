@@ -157,7 +157,7 @@
         font-size: x-large;
         font-weight: bolder;
         margin-left: 2%;
-        color: rgb(219, 112, 41);
+        color: rgb(219, 130, 28);
         text-shadow: 1px 1px black;
     }
 
@@ -181,6 +181,13 @@
         background-color: lightpink;
         padding: 1%;
         font-family: "Pamit";
+    }
+
+    .texto-footer {
+        color: white;
+        text-shadow: 2px 1px purple;
+        font-weight: bolder;
+        padding: 1%;
     }
 /* fim da formatação do footer */
 
