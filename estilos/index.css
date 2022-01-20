@@ -173,6 +173,19 @@
 
 
 
+
+/* início da formatação do footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: lightpink;
+        padding: 1%;
+        font-family: "Pamit";
+    }
+/* fim da formatação do footer */
+
+
+
 /* início da formatação das @Medias screen */
     .botao-hamburguer {
         margin-right: 7%;
