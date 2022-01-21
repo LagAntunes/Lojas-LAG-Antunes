@@ -205,6 +205,10 @@
         height: 90%;
         border-radius: 15px;
     }
+
+    .estrelas .checked {
+        color: orange;
+    }
 /* fim da formatação da section de produtos (página produtos) */
 
 
