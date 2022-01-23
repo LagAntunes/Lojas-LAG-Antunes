@@ -206,8 +206,23 @@
         border-radius: 15px;
     }
 
+    .div-produto h5 {
+        font-family: "Pamit";
+        margin-top: 2%;
+        color: rgb(207, 35, 141);
+    }
+
+    .estrelas {
+        margin-bottom: 2%;
+    }
+
     .estrelas .checked {
         color: orange;
+    }
+
+    .estrelas .checked:hover {
+        font-size: 1.5em;
+        cursor: pointer;
     }
 
     .div-produtos-cozinha {
