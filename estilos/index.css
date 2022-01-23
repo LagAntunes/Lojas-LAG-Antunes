@@ -214,6 +214,10 @@
         flex-direction: column;
     }
 
+    .div-produto:hover {
+        padding: 1.5%;
+    }
+
     .div-produto img {
         width: 100%;
         height: 90%;
@@ -237,6 +241,10 @@
     .estrelas .checked:hover {
         font-size: 1.5em;
         cursor: pointer;
+    }
+
+    .botao {
+        margin-top: 15%;
     }
 
     .div-produtos-cozinha {
