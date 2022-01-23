@@ -183,6 +183,16 @@
         flex-direction: column;
     }
 
+    .div-flex-titulo {
+        width: 100%;
+        margin-bottom: 2%;
+        margin-left: 1.5%;
+        font-family: "Pamit";
+        font-weight: bold;
+        color: rgb(207, 35, 141);
+        text-shadow: 1px 2px rgb(53, 119, 206);
+    }
+
     .div-produtos-esportivos {
         width: 90%;
         display: flex;
