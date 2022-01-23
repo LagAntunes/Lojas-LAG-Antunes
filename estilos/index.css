@@ -209,6 +209,15 @@
     .estrelas .checked {
         color: orange;
     }
+
+    .div-produtos-cozinha {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 /* fim da formatação da section de produtos (página produtos) */
 
 
