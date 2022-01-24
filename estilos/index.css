@@ -298,6 +298,27 @@
         color: rgb(207, 35, 141);
         text-shadow: 1px 2px rgb(53, 119, 206);
     }
+
+    .div-form {
+        width: 90%;
+    }
+
+    .input-itens {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: rgb(207, 35, 141);
+        color:rgb(53, 119, 206) ;
+        border-width: 0.5px;
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 3%;
+        font-family: "Pamit";
+    }
+
+    ::placeholder {
+        color: purple;
+    }
 /* fim da formatação da section de contato (página contato) */
 
 
