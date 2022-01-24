@@ -366,6 +366,17 @@
         color: rgb(207, 35, 141);
         cursor: pointer;
     }
+
+    .div-botao {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .botao-submit {
+        width: 100%;
+        font-family: "Pamit";
+    }
 /* fim da formatação da section de contato (página contato) */
 
 
