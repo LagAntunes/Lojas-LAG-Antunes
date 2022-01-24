@@ -319,6 +319,22 @@
     ::placeholder {
         color: purple;
     }
+
+    .div-form-escolhas {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: "Pamit";
+        color: purple;
+    }
+
+    .div-form-escolhas select {
+        width: 100%;
+        padding: 1%;
+        border-color: purple;
+        color: rgb(207, 35, 141);
+    }
 /* fim da formatação da section de contato (página contato) */
 
 
