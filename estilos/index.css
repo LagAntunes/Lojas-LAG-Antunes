@@ -269,6 +269,37 @@
 
 
 
+/* início da formatação da section de contato (página contato) */
+    .section-contato {
+        background-image: url("../imagens/montanha.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        display: flex;
+    }
+
+    .div-formulario {
+        background-color: white;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 2%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-formulario {
+        width: 70%;
+        font-family: "Pamit";
+        margin-bottom: 5%;
+        color: rgb(207, 35, 141);
+        text-shadow: 1px 2px rgb(53, 119, 206);
+    }
+/* fim da formatação da section de contato (página contato) */
+
 
 
 /* início da formatação do footer */
